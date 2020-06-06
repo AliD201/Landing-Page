@@ -24,10 +24,10 @@ body{
 
 .jumbotron{
   background: rgba(255, 255, 255, 0.4);
-  width:110%;
+  width: 110%;
 }
 .form-control{
-
+width: 100%;
 }
 /* on click move the label */
 /* or if valid keep it up */
