@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  font-weight: bold;
+}
+.background {
+  background: url('wallpaperflare.com_wallpaper (8).jpg');
+  background-size: cover;
+  filter: blur(8px);
+  z-index: -1;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: fixed;
+
+}
+.container {
+  z-index: 2;
+}
+
+.jumbotron{
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.form-control{
+
+}
+/* on click move the label */
+/* or if valid keep it up */
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 98%;
+  transform: translate3d(-5%, -100%, 0);
+  opacity: 1;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+.btn{
+  border-radius: 0px;
+  font-family: Roboto;
+}
+/* x  Y blur size */
+.btn:hover{
+  box-shadow:  0px 5px 15px 5px rgba(0,0,0,0.2);
+}
