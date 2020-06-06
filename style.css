@@ -24,8 +24,7 @@ body{
 
 .jumbotron{
   background: rgba(255, 255, 255, 0.4);
-  padding-left: 10%;
-  padding-right: 10%;
+  width:110%;
 }
 .form-control{
 
